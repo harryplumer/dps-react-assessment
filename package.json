@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "react-infinite-scroller": "^1.0.15",
+    "react-paginate": "^4.4.4"
+  }
 }

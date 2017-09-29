@@ -4,9 +4,9 @@ import {Item, Button, Label, Icon} from 'semantic-ui-react'
 
 
 const BeerItem = ({beer}) => (
-  <Item style={{height: "190px", overflowY: "scroll"}}>
-    {beer.labels ? <Item.Image src={beer.labels.medium} /> :
-    <Item.Image src="http://images.all-free-download.com/images/graphiclarge/beer_mug_clip_art_13660.jpg" />
+  <Item style={{marginTop: "10px", height: "180px", overflowY: "scroll"}}>
+    {beer.labels ? <Item.Image size="small" src={beer.labels.medium} /> :
+    <Item.Image size="small" src="http://images.all-free-download.com/images/graphiclarge/beer_mug_clip_art_13660.jpg" />
     }
     <Item.Content>
       <Item.Header>{beer.name_display}</Item.Header>
