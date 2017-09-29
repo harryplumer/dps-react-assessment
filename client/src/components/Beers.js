@@ -15,7 +15,7 @@ class Beers extends React.Component{
   fetchAllBeers = () => {
     axios.get('/api/all_beers?page=1&per_page=10')
     .then(res => {
-      this.setState({beers: res.data.entries, totalPages: res.data.total_pages})
+      this.setState({beers: res.data.entries, totalPages: res.data.total_pages, searchTerm: ""})
     })
   }
 
@@ -43,7 +43,6 @@ class Beers extends React.Component{
     else {
       axios.get(`/api/search_beers?query=${searchTerm}&page=1&per_page=10`)
       .then(res => {
-        debugger
         this.setState({beers: res.data.entries, totalPages: res.data.total_pages, searchTerm, page: 1})
       })
     }
