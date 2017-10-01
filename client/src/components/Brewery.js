@@ -11,7 +11,7 @@ const Brewery = ({brewery}) => (
         <Image size='large' src={brewery.images.square_large} />  :
         <Image size='large'src="http://images.all-free-download.com/images/graphiclarge/beer_mug_clip_art_13660.jpg" />
       }
-      <div>
+      <div style={{marginLeft: "30px"}}>
         {brewery.description &&
           <div style={styles.modalDivs}>
             <Header>About</Header>

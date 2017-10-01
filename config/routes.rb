@@ -20,7 +20,7 @@ Rails.application.routes.draw do
     # Locations
     get 'all_locations', to: 'locations#all'
     get 'locations/:city', to: 'locations#by_city'
-
+    
     # Assignment Details Markdown
     get 'assignment_details', to: 'assignment_details#show'
   end

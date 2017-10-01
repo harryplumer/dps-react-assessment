@@ -31,7 +31,7 @@ const Beer = ({beer}) => (
           </div>
         }
         {beer.style &&
-          <Popup trigger={
+          <Popup wide="very" trigger={
             <div style={styles.modalDivs}>
               <Header>Style</Header>
               {beer.style.name}
