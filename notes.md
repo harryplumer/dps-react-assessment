@@ -6,5 +6,11 @@
 2017-09-29-1521: Resume
 2017-09-29-1617: Breweries finished w/ pagination and live search for both. Break
 2017-09-29-1635: Resume 
-2017-09-29-1710: Done for the Day — Need to figure out routing to individual pages first thing.
+2017-09-29-1710: Done for the Day 
+2017-09-30-2030: Resume
+2017-09-30-2145: Break
+2017-10-01-1645: Resume 
+2017-10-01-1725: Break
+
+
 
